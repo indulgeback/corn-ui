@@ -2,16 +2,16 @@
 
 <div align="center">
 
-![Corn UI Banner](https://via.placeholder.com/800x200?text=Corn+UI)
+![Corn UI Banner](https://raw.githubusercontent.com/indulgeback/img-repo/main/Sign-up%20Restriction.png)
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![NPM Version](https://img.shields.io/badge/npm-v0.1.0-blue)](https://www.npmjs.com/package/corn-ui)
-[![Lit](https://img.shields.io/badge/Lit-v3.3.0-orange)](https://lit.dev/)
-[![WebComponents](https://img.shields.io/badge/WebComponents-v1-green)](https://www.webcomponents.org/)
+[![Lit](https://img.shields.io/badge/lit-3.3.0-blue?logo=lit)](https://lit.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Web Components](https://img.shields.io/badge/Web%20Components-Standard-brightgreen)](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
 
 **轻量级、高性能的 WebComponent 组件库，支持按需加载**
 
-[文档](https://corn-ui.example.com) · [快速开始](https://corn-ui.example.com/guide/getting-started) · [组件](https://corn-ui.example.com/components/) · [GitHub](https://github.com/yourusername/corn-ui)
+[文档](https://github.com/indulgeback/corn-ui) · [快速开始](#快速开始) · [组件](#组件) · [GitHub](https://github.com/indulgeback/corn-ui)
 
 </div>
 
