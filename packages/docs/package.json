@@ -1,0 +1,24 @@
+{
+  "name": "@corn-ui/docs",
+  "version": "0.1.0",
+  "description": "Corn UI 组件库文档",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "preview": "vitepress preview ."
+  },
+  "keywords": [
+    "documentation",
+    "corn-ui"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "corn-ui": "workspace:*"
+  }
+}

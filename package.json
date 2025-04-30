@@ -1,0 +1,27 @@
+{
+  "name": "corn-ui",
+  "version": "0.1.0",
+  "private": true,
+  "description": "轻量级WebComponent组件库 Corn UI",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --filter corn-ui dev",
+    "test": "pnpm -r test",
+    "docs:dev": "pnpm --filter @corn-ui/docs dev",
+    "docs:build": "pnpm --filter @corn-ui/docs build",
+    "docs:preview": "pnpm --filter @corn-ui/docs preview",
+    "prepare": "pnpm -r build"
+  },
+  "keywords": [
+    "web-components",
+    "custom-elements",
+    "ui-library",
+    "monorepo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

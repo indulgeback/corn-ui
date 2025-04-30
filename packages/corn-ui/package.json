@@ -1,0 +1,58 @@
+{
+  "name": "corn-ui",
+  "version": "0.1.0",
+  "description": "轻量级WebComponent组件库",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./button": {
+      "import": "./dist/components/button/index.js",
+      "types": "./dist/components/button/index.d.ts"
+    },
+    "./card": {
+      "import": "./dist/components/card/index.js",
+      "types": "./dist/components/card/index.d.ts"
+    },
+    "./input": {
+      "import": "./dist/components/input/index.js",
+      "types": "./dist/components/input/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "web-dev-server --node-resolve --open demo/ --watch",
+    "test": "web-test-runner \"test/**/*.test.ts\" --node-resolve",
+    "prepare": "pnpm run build"
+  },
+  "keywords": [
+    "web-components",
+    "custom-elements",
+    "ui-library"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@open-wc/testing": "^4.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/mocha": "^10.0.10",
+    "@web/dev-server": "^0.4.6",
+    "@web/test-runner": "^0.20.1",
+    "glob": "^10.3.10",
+    "rollup": "^4.40.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "lit": "^3.3.0"
+  }
+}

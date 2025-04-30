@@ -1,0 +1,51 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 构建输出
+dist/
+lib/
+build/
+*.tsbuildinfo
+
+# 日志
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 编辑器和IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 测试覆盖率
+coverage/
+
+# 缓存
+.cache/
+.temp/
+.eslintcache
+.stylelintcache
+packages/docs/.vitepress/cache/
+packages/docs/.vitepress/dist/
+
+# 环境变量
+.env
+.env.*
+!.env.example
+
+# 其他
+.npmrc
+!/.npmrc
+*.local 

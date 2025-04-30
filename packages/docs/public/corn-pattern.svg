@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="corn-pattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <!-- 简约玉米图案 -->
+      <path d="M25 10C28 10 29 15 29 20C29 30 27 38 25 40C23 38 21 30 21 20C21 15 22 10 25 10Z"
+        fill="#FFEB3B" fill-opacity="0.15" />
+      <path d="M25 12C26 12 27 14 27 18C27 24 26 30 25 32C24 30 23 24 23 18C23 14 24 12 25 12Z"
+        fill="#FFC107" fill-opacity="0.15" />
+
+      <!-- 简约叶子 -->
+      <path d="M15 30C18 32 22 34 25 34C28 34 32 32 35 30" stroke="#4CAF50" stroke-width="1"
+        stroke-opacity="0.15" fill="none" />
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#corn-pattern)" />
+</svg> 
