@@ -4,10 +4,10 @@
 
 ![Corn UI Banner](https://raw.githubusercontent.com/indulgeback/img-repo/main/Sign-up%20Restriction.png)
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Lit](https://img.shields.io/badge/lit-3.3.0-blue?logo=lit)](https://lit.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Web Components](https://img.shields.io/badge/Web%20Components-Standard-brightgreen)](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
+[![License](https://img.shields.io/badge/License-MIT-4F8BFF.svg)](LICENSE)
+[![Lit](https://img.shields.io/badge/Lit-3.3.0-4F8BFF)](https://lit.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6)](https://www.typescriptlang.org/)
+[![Web Components](https://img.shields.io/badge/Web_Components-Standard-4F8BFF)](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
 
 **轻量级、高性能的 WebComponent 组件库，支持按需加载**
 
